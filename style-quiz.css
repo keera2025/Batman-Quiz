@@ -1,0 +1,93 @@
+html, body{
+	font-family: helvetica,sans-serif;
+	 background-color:#FFD000;
+	margin: 0px;
+	padding: 0px;
+}
+
+#full-screen-background-image {
+    height: auto;
+    left: 0;
+    min-height: 100%;
+    min-width: 1024px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: -999;
+}
+
+#container {
+	width: 960px;
+	margin: 0 auto 0 auto;
+}
+#content {
+	background-color:#404040;
+    padding: 25px;
+	min-height: 520px;
+	margin: 50px 0px 0px 0px;
+	border-top: 5px #000 solid;
+	border-bottom: 5px #000 solid;
+	border-left: 5px #000 solid;
+	border-right: 5px #000 solid;
+}
+
+h1 {
+    color: black;
+    font-size: 3em;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+h3 {
+    color: #FFD000;
+    font-size: 1.4em;
+}
+
+#information{
+    width: 600px;
+	min-height: 50px;
+    margin: 10px auto 10px auto;
+}
+
+#questiondisplay{
+    margin: 10px auto 10px auto;
+    min-height: 250px;
+    width: 600px;
+}
+h3.pointstitle, h3.progress, a.reset {
+    display: inline-block;
+}
+h3.pointstitle {
+    margin: 10px 50px 10px 0px;
+	color: #FFD000;
+}
+h3.progress {
+    margin: 10px 50px 10px 10px;
+	color: #FFD000;
+}
+a.reset {
+	cursor: pointer;
+    color: #FFD000;
+    font-size: 1.2em;
+    text-decoration: none;
+    margin: 10px 0px 10px 10px;
+    float: right;
+}
+a.reset:hover{
+    text-decoration: none;
+}
+ol.options li {
+    font-size: 1.2em;
+}
+.incorrect{
+	color: #FFD000;
+}
+
+.correct{
+    color: #FFD000;
+}
+
+h3.next{
+	display: none; 
+	float: right;
+	cursor: pointer;
+}

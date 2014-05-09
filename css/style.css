@@ -1,0 +1,37 @@
+
+body {
+font-family: 'Lobster', cursive;
+color:#040004;	
+
+/* Full Page Background Receipe */
+ background: url('../images/batman-2.jpeg');
+ background-size: cover;
+ background-position: center;
+ background-attachment: fixed;
+
+}
+
+.container {
+  float:right;
+  margin:0 auto;
+  background: rgba(64,64,64,0.0);
+  width: 400px;
+  height: 200px;
+  padding: 15px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+h1 {
+margin:0 auto;
+margin-bottom: 100px;
+margin-top: 20px;
+}
+
+a{
+color:#040004;
+text-decoration: none;	
+font-size: 35px;
+text-align: right;
+}
+
