@@ -35,3 +35,7 @@ font-size: 35px;
 text-align: right;
 }
 
+a:link {
+  color: red;
+  background-color: transparent;
+}
